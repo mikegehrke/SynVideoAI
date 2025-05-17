@@ -164,6 +164,29 @@ torchrun --nproc_per_node $parallel run_parallel.py --model_dir $model_dir --vae
 
 #### Single-GPU Inference and Quantization
 
+
+---
+
+### 🧠 **5. Was du als Nächstes planst** (optional, nice für Prüfer)
+
+```markdown
+## 🧭 Nächste Schritte
+
+- Webbasierte UI mit Prompt-Galerie
+- Video-Export & Speicherung als MP4
+- Sprachinterface mit Mikrofoneingabe
+- Integration in eigene KI-Assistenzplattform (z. B. SynBot)
+## 📁 Projektstruktur
+
+```plaintext
+SynVideoAI/
+├── api/                  # REST-API für GPU-Dienste
+├── configs/              # Model-Konfigurationen
+├── scripts/              # Inferenz-Skripte & Utilities
+├── assets/               # Videos, Prompts, Samples
+├── README.md             # Projektdoku (du liest sie gerade 😉)
+
+
 - The open-source project DiffSynth-Studio by ModelScope offers single-GPU inference and quantization support, which can significantly reduce the VRAM required. Please refer to [their examples](https://github.com/modelscope/DiffSynth-Studio/tree/main/examples/stepvideo) for more information.
 
 ###  🚀 4.4 Best-of-Practice Inference settings
@@ -194,6 +217,33 @@ The online version of Step-Video-T2V is available on [跃问视频](https://yuew
       url={https://arxiv.org/abs/2502.10248}, 
 }
 ```
+
+---
+
+### 👤 **7. Über dich (wenn du’s fürs Portfolio nutzt)**
+
+```markdown
+## 🙋‍♂️ Autor
+
+**Mike Gehrke**  
+📍 Android & AI Developer  
+💼 Abschlussprojekt im Rahmen der IHK-Ausbildung  
+📫 GitHub: [@mikegehrke](https://github.com/mikegehrke)
+
+## 🌍 Live-Demo
+
+👉 [Jetzt ausprobieren (HuggingFace)](https://huggingface.co/spaces/mikegehrke/synvideoai)
+
+<!-- TAGS: text2video, ai video, t2v, diffusion, huggingface, pytorch, video-ai, mike gehrke, synvideoai -->
+
+README.md
+docs/
+├── INSTALL.md
+├── BENCHMARK.md
+├── VIDEOS.md
+
+➡ [Installationsanleitung](docs/INSTALL.md)  
+➡ [Benchmark-Ergebnisse](docs/BENCHMARK.md)
 
 ## 8. Acknowledgement
 - We would like to express our sincere thanks to the [xDiT](https://github.com/xdit-project/xDiT) team for their invaluable support and parallelization strategy. 
