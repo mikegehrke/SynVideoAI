@@ -217,8 +217,30 @@ The online version of Step-Video-T2V is available on [跃问视频](https://yuew
       url={https://arxiv.org/abs/2502.10248}, 
 }
 ```
+# SynVideoAI 🎥
+
+> **SynVideoAI** ist eine auf Deep Learning basierende Plattform zur automatisierten Videoerstellung aus Text-Eingaben *(Text-to-Video)*.  
+> Es basiert auf dem SoTA-Modell `Step-Video-T2V`, mit eigenen Erweiterungen für UI, Deployment, und deutsches Sprachinterface von **Mike Gehrke**.
 
 ---
+## 🔧 Eigene Erweiterungen durch Mike Gehrke
+
+- 🔀 Strukturumbau für eigenes Branding (`SynVideoAI`)
+- 🇩🇪 Projektstart mit deutschem UI-Ansatz
+- 🎤 Vorbereitung für Sprachsteuerung (Vosk + TTS)
+- 📘 `README.md` komplett überarbeitet & lokalisiert
+
+## 🧭 Nächste Schritte (Geplant)
+
+- 🌐 Webbasierte UI mit Prompt-Galerie
+- 💾 Video-Export & MP4-Speicherung
+- 🎙️ Sprachinterface mit Mikrofoneingabe
+- 🤖 Integration in KI-Assistent (SynBot Ultimate)
+
+## 🌍 Live-Demo
+
+📌 *Noch nicht veröffentlicht – folgt demnächst unter HuggingFace Spaces oder als eigene Web-App.*
+
 
 ### 👤 **7. Über dich (wenn du’s fürs Portfolio nutzt)**
 
@@ -226,8 +248,8 @@ The online version of Step-Video-T2V is available on [跃问视频](https://yuew
 ## 🙋‍♂️ Autor
 
 **Mike Gehrke**  
-📍 Android & AI Developer  
-💼 Abschlussprojekt im Rahmen der IHK-Ausbildung  
+📍  AI Developer  
+💼   SynViedwo AI
 📫 GitHub: [@mikegehrke](https://github.com/mikegehrke)
 
 ## 🌍 Live-Demo
@@ -249,3 +271,9 @@ docs/
 - We would like to express our sincere thanks to the [xDiT](https://github.com/xdit-project/xDiT) team for their invaluable support and parallelization strategy. 
 - Our code will be integrated into the official repository of [Huggingface/Diffusers](https://github.com/huggingface/diffusers).
 - We thank the [FastVideo](https://github.com/hao-ai-lab/FastVideo) team for their continued collaboration and look forward to launching inference acceleration solutions together in the near future.
+
+---
+
+> Erstellt von **Mike Gehrke** – IHK-Abschlussprojekt 2025 –  
+> Dieses Projekt basiert auf [Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V) unter MIT-Lizenz.
+
