@@ -260,16 +260,6 @@ docs/
 🌍 Germany  
 🔗 GitHub: [@mikegehrke](https://github.com/mikegehrke)
 
----
-
-## 📄 License
-
-MIT License.  
-This project is based on the official [Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V) by StepFun AI.  
-Adapted and extended for personal use and research.
-
----
-
 
 ---
 
