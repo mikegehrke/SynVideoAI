@@ -1,3 +1,7 @@
+> **SynVideoAI** ist eine auf Deep Learning basierende Plattform zur automatisierten Videoerstellung aus Text-Eingaben (Text-to-Video).  
+> Basierend auf dem SoTA-Modell `Step-Video-T2V`, mit eigenen Erweiterungen für UI, Deployment, und deutschem Sprachinterface.
+
+
 <p align="center">
   <img src="assets/logo.png"  height=100>
 </p>
@@ -11,6 +15,14 @@
   <a href="https://huggingface.co/stepfun-ai/stepvideo-t2v"><img src="https://img.shields.io/static/v1?label=Step-Video-T2V&message=HuggingFace&color=yellow"></a> &ensp;
   <a href="https://huggingface.co/stepfun-ai/stepvideo-t2v-turbo"><img src="https://img.shields.io/static/v1?label=Step-Video-T2V-Turbo&message=HuggingFace&color=yellow"></a> &ensp;
 </div>
+
+## 🔧 Eigene Erweiterungen durch Mike Gehrke
+
+- Strukturumbau für eigenes Branding (SynVideoAI)
+- Projektstart mit deutschem UI-Ansatz
+- Vorbereitung für Sprachsteuerung (Vosk + TTS)
+- README komplett überarbeitet & lokalisiert
+
 
 ## 🔥🔥🔥 News!!
 * Mar 17, 2025: 👋 We release the [Step-Video-TI2V](https://github.com/stepfun-ai/Step-Video-Ti2V), an image-to-video model based on Step-Video-T2V.
@@ -38,6 +50,14 @@
   </tr>
 
 </table>
+
+## ⚡ Schnellstart
+
+```bash
+git clone https://github.com/mikegehrke/SynVideoAI.git
+cd SynVideoAI
+conda activate stepvideo
+python run_inference.py --prompt "A cat flying through space"
 
 
 ## Table of Contents
