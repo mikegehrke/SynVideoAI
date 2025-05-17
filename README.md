@@ -16,12 +16,6 @@
   <a href="https://huggingface.co/stepfun-ai/stepvideo-t2v-turbo"><img src="https://img.shields.io/static/v1?label=Step-Video-T2V-Turbo&message=HuggingFace&color=yellow"></a> &ensp;
 </div>
 
-## 🔧 Eigene Erweiterungen durch Mike Gehrke
-
-- Strukturumbau für eigenes Branding (SynVideoAI)
-- Projektstart mit deutschem UI-Ansatz
-- Vorbereitung für Sprachsteuerung (Vosk + TTS)
-- README komplett überarbeitet & lokalisiert
 
 
 ## 🔥🔥🔥 News!!
@@ -217,46 +211,8 @@ The online version of Step-Video-T2V is available on [跃问视频](https://yuew
       url={https://arxiv.org/abs/2502.10248}, 
 }
 ```
-# SynVideoAI 🎥
-
-> **SynVideoAI** ist eine auf Deep Learning basierende Plattform zur automatisierten Videoerstellung aus Text-Eingaben *(Text-to-Video)*.  
-> Es basiert auf dem SoTA-Modell `Step-Video-T2V`, mit eigenen Erweiterungen für UI, Deployment, und deutsches Sprachinterface von **Mike Gehrke**.
-
----
-## 🔧 Eigene Erweiterungen durch Mike Gehrke
-
-- 🔀 Strukturumbau für eigenes Branding (`SynVideoAI`)
-- 🇩🇪 Projektstart mit deutschem UI-Ansatz
-- 🎤 Vorbereitung für Sprachsteuerung (Vosk + TTS)
-- 📘 `README.md` komplett überarbeitet & lokalisiert
-
-## 🧭 Nächste Schritte (Geplant)
-
-- 🌐 Webbasierte UI mit Prompt-Galerie
-- 💾 Video-Export & MP4-Speicherung
-- 🎙️ Sprachinterface mit Mikrofoneingabe
-- 🤖 Integration in KI-Assistent (SynBot Ultimate)
-
-## 🌍 Live-Demo
-
-📌 *Noch nicht veröffentlicht – folgt demnächst unter HuggingFace Spaces oder als eigene Web-App.*
 
 
-### 👤 **7. Über dich (wenn du’s fürs Portfolio nutzt)**
-
-```markdown
-## 🙋‍♂️ Autor
-
-**Mike Gehrke**  
-📍  AI Developer  
-💼   SynViedwo AI
-📫 GitHub: [@mikegehrke](https://github.com/mikegehrke)
-
-## 🌍 Live-Demo
-
-👉 [Jetzt ausprobieren (HuggingFace)](https://huggingface.co/spaces/mikegehrke/synvideoai)
-
-<!-- TAGS: text2video, ai video, t2v, diffusion, huggingface, pytorch, video-ai, mike gehrke, synvideoai -->
 
 README.md
 docs/
@@ -274,6 +230,58 @@ docs/
 
 ---
 
-> Erstellt von **Mike Gehrke** – IHK-Abschlussprojekt 2025 –  
-> Dieses Projekt basiert auf [Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V) unter MIT-Lizenz.
+---
+---
+
+## 🔧 Extensions & Enhancements (by Mike Gehrke)
+
+- 🔀 Full rebranding and restructuring of the open-source base (`SynVideoAI`)
+- 🎨 Planned UI with multilingual prompt input (DE/EN)
+- 🔊 Voice input system (Vosk + pyttsx3) in development
+- 📦 Prepared for local/offline deployment
+- 📘 Refined README and simplified onboarding for future contributors
+
+---
+
+## 🧭 Roadmap
+
+- 🌐 Web-based UI for prompt selection & preview
+- 🎥 Export generated video results to .mp4
+- 🎙️ Voice interface & live prompting
+- 🤖 Integration into a personal AI assistant framework (e.g. SynBot Ultimate)
+- 📤 HuggingFace Space or standalone Streamlit frontend
+
+---
+
+## 🙋‍♂️ About the Author
+
+**Mike Gehrke**  
+🧠 AI & Android Developer  
+🌍 Germany  
+🔗 GitHub: [@mikegehrke](https://github.com/mikegehrke)
+
+---
+
+## 📄 License
+
+MIT License.  
+This project is based on the official [Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V) by StepFun AI.  
+Adapted and extended for personal use and research.
+
+---
+
+
+---
+
+## 📄 License
+
+MIT License.  
+This project is based on the official [Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V) by StepFun AI.  
+Adapted and extended for personal use and research.
+
+---
+
+<!-- TAGS: text2video, ai video, t2v, huggingface, diffusion, pytorch, video-generation, mike gehrke, synvideoai -->
+
+
 
